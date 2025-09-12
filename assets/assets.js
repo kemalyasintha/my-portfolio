@@ -6,6 +6,8 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import azure from './azure.png';
+import visualstudio from './visualstudio.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -45,6 +47,8 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
+    azure,
+    visualstudio,    
     firebase,
     figma,
     git,
@@ -107,11 +111,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: '.NET, C#, React Js, Next Js, HTML, CSS, JavaScript' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc. in Computer Science/M.Sc. in Business Analytics' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Here is what I build' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.visualstudio, assets.mongodb, assets.azure, assets.git
 ];
