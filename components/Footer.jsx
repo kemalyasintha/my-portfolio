@@ -15,11 +15,10 @@ const Footer = ({isDarkMode}) => {
       </div>
 
     <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
-        <p>© 2025 GreatStack. All rights reserved.</p>
+        <p>@kemalyasintha-Dream of Thoughts</p>
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-            <li><a target='_blank' href="https://instagram.com/greatstackdev">GitHub</a></li>
-            <li><a target='_blank' href="https://instagram.com/greatstackdev">LinkedIn</a></li>
-            <li><a target='_blank' href="https://instagram.com/greatstackdev">Twitter</a></li>
+            <li><a target='_blank' href="https://github.com/kemalyasintha/my-portfolio">GitHub</a></li>
+            <li><a target='_blank' href="https://www.linkedin.com/in/kemalyasintha/">LinkedIn</a></li>
         </ul>
     </div>
 
