@@ -47,6 +47,7 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
+    azure,
     visualstudio,    
     firebase,
     figma,
@@ -81,28 +82,42 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'API project',
-        description: 'EShop',
-
+        title: 'EasyShopper — .NET 10 Microservices Modernization',
+        description: 'Modernized an 18-project event-driven solution to .NET 10, then added Docker Compose, CI quality gates, and dependency vulnerability scanning.',
+        tags: ['.NET 10', 'MassTransit', 'RabbitMQ', 'Docker', 'GitHub Actions'],
+        repository: 'https://github.com/kemalyasintha/EasyShopper',
     },
     {
-        title: 'MERN',
-        description: 'Face painting Shop',
-
+        title: 'Northstar Housing — Angular 22 Marketplace',
+        description: 'Modernized a legacy Angular property application with standalone components, typed forms, reactive filtering, API workflows, and automated tests.',
+        tags: ['Angular 22', 'TypeScript', 'RxJS', 'REST APIs', 'Vitest'],
+        repository: 'https://github.com/kemalyasintha/housing_application1',
+    },
+    {
+        title: 'Azure Incident Remediation Automation Lab',
+        description: 'Automated Azure incident remediation with Ansible, Application Gateway, Key Vault, and certificate lifecycle automation.',
+        tags: ['Azure', 'Ansible', 'Key Vault', 'Application Gateway'],
+        repository: 'https://github.com/kemalyasintha/azure-ansible-incident-remediation',
+    },
+    {
+        title: 'QualityGateLab — Continuous Testing Pipeline',
+        description: 'A .NET quality-gate project covering xUnit, integration testing, EF Core, GitHub pull requests, and Azure DevOps CI.',
+        tags: ['C#', 'xUnit', 'EF Core', 'Azure DevOps', 'CI/CD'],
+        repository: 'https://github.com/kemalyasintha/qualitygatelab-continuous-testing',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: '.NET & API Development', description: 'C#, ASP.NET Core, REST APIs, system integration, and secure application design.' },
+    { icon: assets.azure, title: 'Azure & CI/CD Delivery', description: 'Azure App Service, Functions, Key Vault, Entra ID, Azure DevOps, and GitHub Actions.' },
+    { icon: assets.code_icon, title: 'SaaS & Legacy Modernization', description: 'Incremental modernization of business-critical applications while protecting reliability and delivery.' },
+    { icon: assets.git, title: 'Quality & Production Support', description: 'Automated testing, troubleshooting, root-cause analysis, release readiness, and operational ownership.' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: '.NET, C#, React Js, Next Js, HTML, CSS, JavaScript' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc. in Computer Science/M.Sc. in Business Analytics' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Here is what I build' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Core stack', description: 'C#, .NET, ASP.NET Core, SQL, REST APIs, TypeScript, Angular' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Cloud delivery', description: 'Azure, Docker, Azure DevOps, GitHub Actions, CI/CD, automated testing' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experience', description: '9+ years in enterprise applications, SaaS modernization, and production support' }
 ];
 
 export const toolsData = [

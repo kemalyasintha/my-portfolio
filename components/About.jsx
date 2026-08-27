@@ -22,7 +22,7 @@ const About = ({isDarkMode}) => {
       whileInView={{opacity: 1, y: 0}}
       transition={{duration: 0.5, delay: 0.5}}
       className='text-center text-5xl font-Ovo'>
-        About me</motion.h2>
+        About Kemal</motion.h2>
 
         <motion.div 
         initial={{opacity: 0}}
@@ -42,7 +42,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
-                >I am an experienced Full Stack Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                >I build and modernize enterprise software across .NET, Azure, APIs, data integrations, and CI/CD. My experience includes enterprise ERP product engineering, SaaS modernization, production troubleshooting, and quality-focused delivery.</p>
 
                 <motion.ul
                 initial={{opacity: 0}}
@@ -65,7 +65,7 @@ const About = ({isDarkMode}) => {
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1.3, duration: 0.5 }}
-                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
+                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Core tools</motion.h4>
 
                 <motion.ul
                 initial={{ opacity: 0 }}
