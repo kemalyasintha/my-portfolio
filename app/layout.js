@@ -12,8 +12,9 @@ const ovo = Ovo({
 
 
 export const metadata = {
-  title: "Portfolio - Kemal",
-  description: "",
+  title: "Kemal Yasintha | Senior .NET & Azure Engineer",
+  description:
+    "Portfolio of Kemal Yasintha, a Senior Software Engineer specializing in .NET, Azure, APIs, SaaS modernization, and reliable cloud delivery.",
 };
 
 export default function RootLayout({ children }) {
